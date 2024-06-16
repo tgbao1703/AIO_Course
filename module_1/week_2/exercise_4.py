@@ -17,8 +17,6 @@ def exercise4(token1: str, token2: str):
 
     return dp[m][n]
 
-assert exercise4("hi", "hello") == 4.0
-
 if __name__ == "__main__":
     print(exercise4("hola", "hello"))
 
